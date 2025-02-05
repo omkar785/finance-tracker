@@ -8,14 +8,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mt-40">
+    <div className="mt-40 bg-black">
       <HeroSection/>
-      <section className="py-20 bg-blue-50">
+      <section className="py-20 bg-custom-beigee">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {statsData.map(({ value, label }, index) => (
               <div key={index} className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">{value}</div>
+                <div className="text-4xl font-bold text-custom-pine mb-2">{value}</div>
                 <div className="text-gray-600">{label}</div>
               </div>
             ))}
@@ -30,7 +30,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuresData.map((feature,index)=>( 
-              <Card key={index} className="p-6">
+              <Card key={index} className="p-6 dark">
               <CardContent className="space-y-4 pt-4">
                 {feature.icon}
                 <h3 className="text-xl font-semibold">{feature.title}</h3>
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
      
      
-      <section className="py-20 bg-blue-50">
+      <section className="py-20 bg-custom-beigee">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
             How It works
@@ -73,7 +73,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonialsData.map((testimonial,index)=>( 
-              <Card key={index} className="p-6">
+              <Card key={index} className="p-6 dark">
               <CardContent className="pt-4">
               <div className="flex items-center mb-4">
                 <Image 
@@ -88,7 +88,7 @@ export default function Home() {
                 <div className="text-sm text-gray-600">{testimonial.role}</div>
               </div>
               </div>
-              <p className="text-gray-600">{testimonial.quote}</p>
+              <p className="text-white">{testimonial.quote}</p>
 
               </CardContent>
             </Card>

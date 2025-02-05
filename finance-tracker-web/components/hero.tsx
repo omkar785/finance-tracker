@@ -31,7 +31,7 @@ const HeroSection = () => {
   return (
     <div className='pb-20 px-4'>
         <div className='container mx-auto text-center'>
-            <h1 className='text-5xl md:text-8xl lg:text-[105px] gradient-title'>Manage You Finances <br /> With AI</h1>
+            <h1 className='text-5xl md:text-8xl lg:text-[105px] gradient-title'>Manage Your Finances <br /> With AI</h1>
             <p className='text-xl text-gray-600 mb-8 max-w-2xl mx-auto'>
                 Some random bullshit about the ai used in the app
             </p>
@@ -46,7 +46,7 @@ const HeroSection = () => {
             </div>
             <div className='hero-image-wrapper'>
                 <div ref={(imageRef)} className='hero-image'>
-                    <Image src='/public/images/banner.jpeg' alt='banner' width={1280} height={720} priority className='rounded-lg shadow-2xl border mx-auto' />
+                    <Image src='/images/banner.jpeg' alt='banner' width={1280} height={720} priority className='rounded-lg shadow-2xl border mx-auto' />
                 </div>
             </div>
         </div>

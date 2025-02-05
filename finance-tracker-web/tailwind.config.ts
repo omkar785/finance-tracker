@@ -10,6 +10,12 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			'custom-beigee': '#ECDFCC',
+			'custom-pine': '#697565',
+			'custom-grenbg': '#181C14',
+			'custom-grencon': '#697565',
+			
+
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -60,3 +66,5 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
+

@@ -8,11 +8,11 @@ import { LayoutDashboard, PenBox } from 'lucide-react'
 
 const Header = () => {
   return (
-    <div className='fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b'>
+    <div className='fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b'>
 
       <nav className='container mx-auto px-4 py-4 flex items-center justify-between'>
         <Link href='/'>
-        <Image src={"/public/images/logo.png"}
+        <Image src={"/images/l_1648_ad57e4c0b7fb54ba1f1fe4e15e714651-80q.jpg"}
         alt='logo?'
         height={60}
         width={200}
