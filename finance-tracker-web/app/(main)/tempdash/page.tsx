@@ -131,7 +131,7 @@ export default async function Home() {
 
             <p className="font-bold text-center">Upcoming Payments</p>
             <AlertDialog>
-            <AlertDialogTrigger className="bg-gray-200 rounded "><Plus/></AlertDialogTrigger>
+            <AlertDialogTrigger className="bg-gray-600 rounded "><Plus/></AlertDialogTrigger>
             <AlertDialogContent>
               <AlertDialogHeader>
                 <AlertDialogTitle>Add Payment</AlertDialogTitle>

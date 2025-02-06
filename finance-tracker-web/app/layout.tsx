@@ -33,8 +33,8 @@ export default function RootLayout({
         <Toaster richColors/>
         {/* footer */}
         <footer className="bg-custom-beigee py-12">
-        <div className="container mx-auto px-4 text-center text-gray-600">
-          <p>Testing the Footer component</p>
+        <div className="container mx-auto px-4 text-center text-gray-600 font-bold">
+          <p>&#9400; MoneyMint 2025</p>
         </div>
         </footer>
       </body>
