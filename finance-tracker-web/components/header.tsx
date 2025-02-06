@@ -12,17 +12,17 @@ const Header = () => {
 
       <nav className='container mx-auto px-4 py-4 flex items-center justify-between'>
         <Link href='/'>
-        <Image src={"/images/l_1648_ad57e4c0b7fb54ba1f1fe4e15e714651-80q.jpg"}
+        <Image src={"/images/MoneyMint-removebg-preview.png"}
         alt='logo?'
         height={60}
         width={200}
-        className='h-12 w-auto object-contain'/>
+        className='h-14 w-auto object-contain'/>
         </Link>
 
         <div className='flex items-center space-x-4'>
 
           <SignedIn>
-            <Link href={"/dashboard"} className='text-gray-600 hover:text-blue-600 flex items-center gap-2'>
+            <Link href={"/tempdash"} className='text-gray-600 hover:text-blue-600 flex items-center gap-2'>
             <Button variant='outline'>
               <LayoutDashboard size={18}/>
               <span className='hidden md:inline'>
@@ -31,11 +31,11 @@ const Header = () => {
             </Button>
             </Link>
 
-            <Link href={"/taransaction/create"}>
+            <Link href={"/portfolio"}>
             <Button className='flex items-center gap-2'>
-              <PenBox size={18}/>
+              {/* <PenBox size={18}/> */}
               <span className='hidden md:inline'>
-                Add Transaction
+                Portfolio
               </span>
             </Button>
             </Link>

@@ -37,16 +37,16 @@ const HeroSection = () => {
             </p>
 
             <div className='flex  justify-center space-x-4'>
-                <Link href="/dashboard">
+                <Link href="/tempdash">
                     <Button size="lg" className='px-8'> Get Started</Button>
                 </Link>
-                <Link href="/dashboard">
+                <Link href="/tempdash">
                     <Button variant="outline" size="lg" className='px-8'> Demo Video?</Button>
                 </Link>
             </div>
             <div className='hero-image-wrapper'>
                 <div ref={(imageRef)} className='hero-image'>
-                    <Image src='/images/banner.jpeg' alt='banner' width={1280} height={720} priority className='rounded-lg shadow-2xl border mx-auto' />
+                    <Image src='/images/MicrosoftTeams-image-4.jpg' alt='banner' width={1280} height={720} priority className='rounded-lg shadow-2xl border mx-auto' />
                 </div>
             </div>
         </div>
